@@ -8,6 +8,7 @@ namespace ThreadSpy
     class TextBoxHelper
     {
         static private TextBox textbox;
+        
         public delegate void UpdateTextCallback(char c);
 
         // 

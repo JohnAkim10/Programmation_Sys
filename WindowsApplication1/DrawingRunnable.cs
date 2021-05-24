@@ -25,7 +25,7 @@ namespace ThreadSpy
         {
             for (int i = 0; i < 20; i++)
             {
-                Thread.Sleep(300);
+                Thread.Sleep(400);
                 TextBoxHelper.AddChar(tb, c);
              }
         }
